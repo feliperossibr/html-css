@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url();
+        body {
+            font-family: 'Work Sans';
+            /*
+            Medidas Absolutas
+            cm, mm, in, "px", pt, pc
+            
+            Medidas Relativas
+            "em", ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: normal;
+            /* lighter normal bold bolder*/
+        }
+        h1 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /* shorthand font
+            
+            - Primeiro o font-style
+            - Segundo o font-weight
+            - Terceiro o font-size
+            - Quarto o font-family
+            */
+        }
+        h2 {
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, nulla inventore? Quis aspernatur magnam quam consequatur voluptatibus, quidem quaerat molestias placeat quos quod corporis fugit esse hic fuga enim sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis minima, quaerat enim porro dicta, odit pariatur voluptate velit aliquam quos quasi harum, eligendi sit. Alias et modi excepturi in velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptate, delectus ab quo porro pariatur repellat, ipsa non maiores beatae doloribus cumque blanditiis? Impedit quaerat dolor, obcaecati eum aspernatur officiis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus dolor delectus harum illum incidunt ipsa nisi itaque eius! Quidem aliquam quasi culpa cum et autem ducimus tempore esse exercitationem molestiae.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae consectetur esse officiis consequatur, sed est maxime quis porro, corrupti quisquam quos aspernatur dolores atque perspiciatis nulla ducimus id blanditiis dolor?</p>
+</body>
+</html>

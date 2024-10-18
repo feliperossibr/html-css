@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento de Fundo</title>
+    <style>
+        body {
+            background-image: url('imagens/wallpaper005.jpg');
+            background-repeat: no-repeat;
+            background-position: center top;
+        }
+
+        div.bloco {
+            font-size: 32px;
+            color: black;
+            text-decoration: underline;
+            text-align: center;
+            display: inline-block;
+            border: 2px solid rgba(0, 0, 0, 0.584);
+            border-radius: 10px;
+            width: 500px;
+            height: 300px;
+        }
+
+        div#q1 {
+            background-image: linear-gradient(to bottom, lightgray, grey);
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to bottom, grey, rgb(71, 71, 71));
+        }
+
+        div#q3 {
+            background-image: linear-gradient(to bottom, rgb(71, 71, 71), black);
+        }
+
+        p.desc {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        p#p1 {
+            color: rgb(255, 255, 255);
+        }
+
+        p#p2 {
+            color: rgb(255, 255, 255);
+        }
+
+        p#p3 {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="bloco" id="q1">
+        <h1>Cinza Claro</h1>
+        <p class="desc" id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate adipisci illum magni corrupti deleniti ipsum omnis accusantium ex, sapiente nulla, ratione doloribus suscipit, quam incidunt error fuga quis rerum quasi!</p>
+    </div>
+    <div class="bloco" id="q2">
+        <h1>Cinza Médio</h1>
+        <p class="desc" id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ad eaque quisquam enim excepturi in sint culpa minus labore deserunt magnam possimus veritatis, sunt saepe, adipisci incidunt atque aspernatur facilis!</p>
+    </div>
+    <div class="bloco" id="q3">
+        <h1>Cinza Escuro</h1>
+        <p class="desc" id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea adipisci ipsam accusantium provident! Quo earum esse facilis voluptas voluptatum, sed animi optio sed animi sed animi optio optio incidunt autem excepturi.</p>
+    </div>
+</body>
+</html>

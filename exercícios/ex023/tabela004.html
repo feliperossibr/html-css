@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    
+</head>
+<body>
+    <h1>Tabelas</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td class="namesf">Ana Maria Santos</td>
+                <td class="filmes">Alien</td>
+                <td class="filmes">Rambo</td>
+                <td class="filmes">Vingadores</td>
+            </tr>
+            <tr>
+                <td class="namesf">Beatriz Souza</td>
+                <td class="filmes">Hulk</td>
+                <td class="filmes">Inception</td>
+                <td class="filmes">Batman</td>
+            </tr>
+            <tr>
+                <td class="namesf">Cláudia Melo</td>
+                <td class="filmes">Oblivon</td>
+                <td class="filmes">Matrix</td>
+                <td class="filmes">Big Hero</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td class="namesm">Bruno Mendonça</td>
+                <td class="filmes">intocáveis</td>
+                <td class="filmes">Amnésia</td>
+                <td class="filmes">Gladiador</td>
+            </tr>
+            <tr>
+                <td class="namesm">Daniel Lourenço</td>
+                <td class="filmes">Wall-E</td>
+                <td class="filmes">Oldboy</td>
+                <td class="filmes">Dangal</td>
+            </tr>
+            <tr>
+                <td class="namesm">Fabiano Mota</td>
+                <td class="filmes">Star Wars 5</td>
+                <td class="filmes">Taxi Driver</td>
+                <td class="filmes">Toy Story</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="4" id="total" scope="row" >Total</th>
+            <td id="totaln">1000</td>
+        </tfoot>
+    </table>
+</body>
+</html>

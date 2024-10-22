@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+table {
+    background-color: white;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1em;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+thead {
+    color: white;
+    background-color: grey;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.medias {
+    text-align: left;
+}

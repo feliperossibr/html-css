@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vh;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed obcaecati rem alias, sunt magnam vero ducimus in optio asperiores a commodi deleniti iste nemo, omnis nam quis dolorem, hic corporis!</p>
+
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terrceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum fuga nam vero vitae perferendis optio adipisci voluptates quibusdam omnis at, explicabo ex facere nihil deserunt. Atque explicabo ipsa neque iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iure reprehenderit dicta! Veniam quibusdam mollitia quasi cupiditate itaque doloribus provident quos illum perferendis, nesciunt consequatur, aut, reprehenderit est qui fugiat.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eveniet, rem corrupti, ex omnis tempora dignissimos perspiciatis vel, necessitatibus ipsa cumque. Corrupti impedit eum facere aspernatur! Debitis nisi vero quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, a. Consequuntur illum maiores officiis, et commodi iure quod ducimus natus ipsa non ea minus porro. Fugiat fuga inventore id tempore?</p><img src='imagens/mascote.png'>"> 
+        <p>Infelizmente seu navegador não é compatível com isso!</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eveniet, rem corrupti, ex omnis tempora dignissimos perspiciatis vel, necessitatibus ipsa cumque. Corrupti impedit eum facere aspernatur! Debitis nisi vero quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, a. Consequuntur illum maiores officiis, et commodi iure quod ducimus natus ipsa non ea minus porro. Fugiat fuga inventore id tempore?</p>
+</body>
+</html>

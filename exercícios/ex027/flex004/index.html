@@ -5,33 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexible Box</title>
     <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        main {
+            background-color: blueviolet;
+            height: 90vh;
+            width: 100vw;
+        }
+
         div.conteiner {
             background-color: lightsalmon;
             height: 300px;
+            width: 100vw;
 
             display: flex;
             flex-flow: row nowrap;
-            justify-content: space-around;
-
+           
+            justify-content: center;
             align-items: center;
         }
 
         div.item {
             background-color: lightskyblue;
+            height: 20px;
+            width: 20px;
             border: 1px solid black;
+
+            padding: 2px;
+            margin: 2px;
             text-align: center;
         }
     </style>
 </head>
 <body>
-    <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
-    </div>
+    <main>
+        <div class="conteiner">
+            <div class="item">A</div>
+            <div class="item">B</div>
+            <div class="item">C</div>
+            <div class="item">D</div>
+            <div class="item">E</div>
+            <div class="item">F</div>
+            <div class="item">G</div>
+        </div>
+    </main>
 </body>
 </html>
